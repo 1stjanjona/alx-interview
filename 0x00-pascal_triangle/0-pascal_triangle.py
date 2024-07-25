@@ -9,7 +9,7 @@ def pascal_triangle(n):
 
     P = []
 
-    for idx in range (n):
+    for idx in range(n):
         row = [1] * (idx + 1)
 
         for ndx in range(1, idx):
